@@ -1,54 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
-</head>
-<body>
-  <div class="container">
-    <div class="container-segment">
-      <div class="segment-title">Hours</div>
-      <div class="segment">
-        <div class="flip-card" data-hours-tens>
-          <div class="top">2</div>
-          <div class="bottom">2</div>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lunar New Year Countdown</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="/lunar-date-2.0.1/index.umd.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-segment">
+        <div class="segment-title">Ngày</div>
+        <div class="segment">
+          <div class="flip-card" data-days-tens>
+            <div class="top">0</div>
+            <div class="bottom">0</div>
+          </div>
+          <div class="flip-card" data-days-ones>
+            <div class="top">0</div>
+            <div class="bottom">0</div>
+          </div>
         </div>
-        <div class="flip-card" data-hours-ones>
-          <div class="top">4</div>
-          <div class="bottom">4</div>
+      </div>
+      <div class="container-segment">
+        <div class="segment-title">Giờ</div>
+        <div class="segment">
+          <div class="flip-card" data-hours-tens>
+            <div class="top">0</div>
+            <div class="bottom">0</div>
+          </div>
+          <div class="flip-card" data-hours-ones>
+            <div class="top">0</div>
+            <div class="bottom">0</div>
+          </div>
+        </div>
+      </div>
+      <div class="container-segment">
+        <div class="segment-title">Phút</div>
+        <div class="segment">
+          <div class="flip-card" data-minutes-tens>
+            <div class="top">0</div>
+            <div class="bottom">0</div>
+          </div>
+          <div class="flip-card" data-minutes-ones>
+            <div class="top">0</div>
+            <div class="bottom">0</div>
+          </div>
+        </div>
+      </div>
+      <div class="container-segment">
+        <div class="segment-title">Giây</div>
+        <div class="segment">
+          <div class="flip-card" data-seconds-tens>
+            <div class="top">0</div>
+            <div class="bottom">0</div>
+          </div>
+          <div class="flip-card" data-seconds-ones>
+            <div class="top">0</div>
+            <div class="bottom">0</div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container-segment">
-      <div class="segment-title">Minutes</div>
-      <div class="segment">
-        <div class="flip-card" data-minutes-tens>
-          <div class="top">0</div>
-          <div class="bottom">0</div>
-        </div>
-        <div class="flip-card" data-minutes-ones>
-          <div class="top">0</div>
-          <div class="bottom">0</div>
-        </div>
-      </div>
-    </div>
-    <div class="container-segment">
-      <div class="segment-title">Seconds</div>
-      <div class="segment">
-        <div class="flip-card" data-seconds-tens>
-          <div class="top">0</div>
-          <div class="bottom">0</div>
-        </div>
-        <div class="flip-card" data-seconds-ones>
-          <div class="top">0</div>
-          <div class="bottom">0</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
